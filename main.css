@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+div{
+	width:"900px";
+	margin: 0 auto;
+	text-align: center;
+	font-family:"Constantia", "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+	color: indigo;
+	background : rgba(190,124,125,1.00) 
+}
+.content-table{
+	width:auto;
+	margin: 0 auto;
+	font-size: 1em;
+	box-sizing: border-box;
+	border:rgba(26,0,25,1.00) medium solid;
+	border-collapse: collapse
+}
+.content-table tr{
+	text-align: left;
+	background: rgba(194,150,150,1.00);
+	font-weight: bold;
+	padding: 12px 20px;
+}
+.content-table td
+.content-table th {
+	padding: 12px 15px;	
+}
+.content-table tbody tr:nth-of-type(even){
+	background-color: antiquewhite
+}
+.left{
+	width: 400px;
+	margin: 0 auto;
+	float: left;
+	box-size: border-box;
+	padding: 20px;
+	border: rgba(146,12,14,1.00) medium double;
+}
+.right{
+	width: 400px;
+	margin: 0 auto;
+	float: right;
+	box-size: border-box;
+	padding: 20px;
+	border: rgba(146,12,14,1,00) medium double 50px;
+}
