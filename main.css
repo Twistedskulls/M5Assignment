@@ -30,18 +30,23 @@ div{
 	background-color: antiquewhite
 }
 .left{
-	width: 400px;
+	width: 340px;
 	margin: 0 auto;
 	float: left;
 	box-size: border-box;
 	padding: 20px;
-	border: rgba(146,12,14,1.00) medium double;
+	border: rgba(146,12,14,1.00) medium double 50px;
 }
 .right{
-	width: 400px;
+	width: 340px;
 	margin: 0 auto;
 	float: right;
 	box-size: border-box;
 	padding: 20px;
 	border: rgba(146,12,14,1,00) medium double 50px;
+}
+.ol{
+	list-style-type: georgian;
+	text-align:left;
+	border:rgba(82,209,204,1.00) inset;
 }
