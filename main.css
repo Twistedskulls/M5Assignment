@@ -48,14 +48,14 @@ div{
 .ol{
 	list-style-type: georgian;
 	text-align:left;
-	border:rgba(82,209,204,1.00) inset;
+	border:rgba(82,209,204,1.00) 25px;
 	font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
 	color: darkred;
 }
 .ul{
 	list-style-type: square;
 	text-align:"left";
-	border:rgba(82,209,204,1.00);
+	border:rgba(82,209,204,1.00)25px;
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
 	color: darkred;
 }
